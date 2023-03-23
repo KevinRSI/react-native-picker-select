@@ -24,8 +24,10 @@
         "/src"
     ],
     "dependencies": {
-        "@react-native-picker/picker": "^2.x.x",
         "lodash.isequal": "^4.5.0"
+    },
+    "peerDependencies": {
+        "@react-native-picker/picker": ">=2.4.0"
     },
     "devDependencies": {
         "@types/react-native": "^0.60.22",
